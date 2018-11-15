@@ -1,0 +1,10 @@
+[cxx]
+  cflags = "-std=c11"
+  untracked_headers = error
+  should_remap_host_platform = true
+
+[project]
+  ignore = .git
+
+[repositories]
+  buckaroo.github.buckaroo-pm.luadist-libjpeg = ./buckaroo/github/buckaroo-pm/luadist-libjpeg

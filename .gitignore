@@ -1,4 +1,7 @@
 .buckd
+.buckconfig.local
+.buckconfig.d
 buck-out
 buckaroo
 BUCKAROO_DEPS
+buckaroo_macros.bzl

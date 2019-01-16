@@ -1,0 +1,33 @@
+filegroup(
+  name = 'in',
+  srcs = [
+    'Makefile.in',
+  ],
+  visibility = [
+    'PUBLIC',
+  ],
+)
+
+cxx_binary(
+  name = 'ascii',
+  srcs = [
+    'ascii_tag.c',
+  ],
+  deps = [
+    '//:tiff',
+  ],
+)
+
+cxx_binary(
+  name = 'arrays',
+  header_namespace = '',
+  headers = [
+    'test_arrays.h',
+  ],
+  srcs = [
+    'test_arrays.c',
+  ],
+  deps = [
+    '//:tiff',
+  ],
+)

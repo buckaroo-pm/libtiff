@@ -1,4 +1,4 @@
-manifest = "819ad5a489f5fda5149f4ef68ba94676deb31ac6af4ce646c9302d69f461197b"
+manifest = "96b864e1dfa55e5bba53e13ce1d67ea9aee9ff4faebc4fcbe7c00a908a845658"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/luadist-libjpeg"
